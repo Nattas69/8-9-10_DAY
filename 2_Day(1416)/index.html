@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="photo/logo/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css" type="text/css">
+    <link rel="stylesheet" href="style/modal.css">
+    <script src="js/modal.js"></script>
+    <script src="js/main.js"></script>
+    <title>ИС-302</title>
+</head>
+
+<body class="fon">
+    <header>
+        <div class="lil">
+            <a href="index.html"><img src="photo/logo/logo.png" alt="logo" class="logotipp" width="60" height="60"></a>
+            <h3 class="title-example">WD</h3>
+        </div>
+        <form id="poisk">
+            <input type="text" placeholder="Искать здесь...">
+        </form>
+    </header>
+    <nav>
+        <ul class="top-menu">
+            <li style="float:right"><a href="index.html">Главная</a></li>
+            <li style="float:right"><a href="group.html">Наша группа</a></li>
+            <li style="float:right"><a href="abilities.html">Способности</a></li>
+            <li style="float:right"><a href="events.html">События</a></li>
+        </ul>
+    </nav>
+    <div class="container_slider_css">
+        <img class="photo_slider_css" src="photo/love.jpg" alt="">
+        <img class="photo_slider_css" src="photo/webs.jpg" alt="">
+        <img class="photo_slider_css" src="photo/sport2.jpg" alt="">
+        <img class="photo_slider_css" src="photo/cooool.jpg" alt="">
+        <img class="photo_slider_css" src="photo/play1.jpg" alt="">
+    </div>
+    <hr>
+    <aside>
+        <h2>Немного о нас</h2>
+        <hr>
+        <div class="item">
+            <img src="photo/rest2.jpg" alt="">
+            <div class="description">
+                <p class="name"><b>ЛЮБИМ ВСЕХ И ВСЯ</b></p>
+                <p class="surname">Очень любвеобильные ребята)</p>
+                <a href="#openModal2" class="btn-color">Любите нас?</a>
+                <div id="openModal2" class="modalDialog">
+                    <div>
+                        <a href="#close" title="Закрыть" class="close">X</a>
+                        <h2>Мы тоже)</h2>
+                        <p>⢀⣤⣶⣾⣿⣿⣿⣿⣷⣶⣄⢀⣴⣶⣿⣿⣿⣷⣦⣄⣤⣶⣿⣿⣿⣷⣦⣄⠄⠄ ⣿⣿⠉⠁⠄⠄⠄⠄⠈⣹⣿⣿⠟⠉⠄⠄⠄⠈⠻⣿⡟⠉⠄⠄⠄⠈⠛⣿⣷⡀ ⠙⢿⣿⡄⠄⠄⠄⠄⣾⣿⣿⡏⠄⠄⠄⠄⠄⠄⠄⠈⠄⠄⠄⠄⠄⠄⠄⠈⣿⣷ ⠄⢸⣿⡇⠄⠄⠄⠄⣿⣿⣿⡇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿ ⠄⢸⣿⡇⠄⠄⠄⠄⣿⡟⢿⣷⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢀⣼⣿⠇ ⠄⢸⣿⡇⠄⠄⠄⠄⣿⣿⠈⠻⣿⣦⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣠⣾⡿⠃⠄ ⢀⣼⣿⠇⠄⠄⠄⠄⢿⣿⣦⠄⠈⠻⣿⣶⣄⠄⠄⠄⠄⠄⢀⣴⣾⡿⠋⠄⠄⠄ ⢾⣿⡉⠄⠄⠄⠄⠄⢀⣹⣿⠆⠄⠄⠈⠛⢿⣷⣦⡀⣠⣶⣿⠟⠉⠄⠄⠄⠄⠄
+                            ⢨⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣶⣶⣶⣶⣶⣽⣿⣿⣿⣿⣷⣶⣴⣶⣶⣶⣶⣄ ⣿⣯⣁⠄⠄⠄⣽⡏⠄⣀⣼⠟⠉⠁⡀⠄⠉⠻⣿⣍⠄⠄⢀⣹⣿⣅⠄⢀⣽⣿ ⠈⠛⢿⣷⡀⠄⠈⢀⣼⣿⡇⠄⠄⣿⣿⡆⠄⠄⢹⣿⠄⠄⢸⣿⣿⣿⠄⢸⣿⠁ ⠄⠄⢈⣿⡇⠄⠄⢸⣿⣿⡇⠄⠄⠸⣿⣿⠄⠄⢰⣿⠄⠄⠸⣿⣿⡿⠄⢸⣿⠄ ⠄⠄⣾⣟⠃⠄⠄⠘⣻⣿⣿⣄⡀⠄⠈⠁⢀⣠⣿⣿⣆⡀⠄⠉⠉⠁⣠⣾⡿⠄ ⠄⠄⠙⠿⣿⣿⣿⣿⠿⠋⠈⠻⢿⣿⣿⣿⠿⠟⠉⠈⠻⠿⣿⣿⣿⡿⠿⠋⠄⠄
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="photo/cool.jpg" alt="">
+            <div class="description">
+                <p class="name"><b>МЫ ЗА ЗДОРОВЫЙ ОБРАЗ ЖИЗНИ!</b></p>
+                <p class="surname">Так врут все, ну а мы скажем правду.<br> ПриКольнемся?
+                </p>
+                <a href="#openModal1" class="btn-color">Я за ЗОЖ!!!</a>
+                <div id="openModal1" class="modalDialog">
+                    <div>
+                        <a href="#close" title="Закрыть" class="close">X</a>
+                        <h2>Здоровый образ жизни?</h2>
+                        <p>А если честно???)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="photo/starostaa.jpg" alt="">
+            <div class="description">
+                <p class="name"><b>ГЛАВАРЬ ГРУППЫ - MAFAR</b></p>
+                <p class="surname">Опасный типчик, за Наташу и рэп порвёт любого. <br> Частенько тупит, но не ругайте его, он старается.
+                </p>
+                <audio controls>
+                    <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis"  controls="controls">
+                    <source src="audio/Песня про Никиту😎 (256  kbps).mp3" type="audio/mpeg">
+                    Тег audio не поддерживается вашим браузером. 
+                    <a href="audio/Песня про Никиту😎 (256  kbps).mp3">Скачайте музыку</a>.
+                  </audio>
+            </div>
+        </div>
+        <hr>
+        <h2>Где нас найти?</h2>
+        <hr>
+        <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.ru/maps/56/chelyabinsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;"></a>
+            <a href="https://yandex.ru/maps/56/chelyabinsk/house/ulitsa_bogdana_khmelnitskogo_12/YkgYdQ5kSUABQFtvfX50eXRqYA==/?ll=61.394056%2C55.258895&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;"></a><iframe src="https://yandex.ru/map-widget/v1/?ll=61.394056%2C55.258895&mode=whatshere&whatshere%5Bpoint%5D=61.394056%2C55.258894&whatshere%5Bzoom%5D=17&z=16" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </aside>
+
+    <footer>
+        <div id="footer">
+            <div id="sitemap">
+                <h3>SITEMAP</h3>
+                <a href="group.html">Наша группа</a>
+                <a href="abilities.html">Достижения</a>
+                <a href="events.html">События</a>
+                <a href="#">Семья</a></div>
+            <div id="social">
+                <h3>SOCIAL NETWORKS</h3>
+                <a href="http://twitter.com/" class="social-icon twitter"><img src="photo/logo/twitter (1).png" width="30"></a>
+                <a href="http://facebook.com/" class="social-icon facebook"><img src="photo/logo/facebook.png" width="30"></a>
+                <a href="http://vimeo.com/" class="social-icon-small vimeo"><img src="photo/logo/tumblr.png" width="30"></a>
+                <a href="http://youtube.com/" class="social-icon-small youtube"><img src="photo/logo/periscope.png" width="30"></a>
+                <a href="http://instagram.com/" class="social-icon-small instagram"><img src="photo/logo/instagram.png" width="30"></a>
+            </div>
+            <div id="footer-logo">
+                <a href="/"><img src="photo/logo/logo.png" width="50" height="50" alt="Whitesquare logo"></a>
+                <p>© 2023 WD</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<div id="preloader_malc">
+    <img src="photo/PVY2.gif" id="giff">
+</div>
+
+</html>
